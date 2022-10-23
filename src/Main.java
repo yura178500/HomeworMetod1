@@ -1,5 +1,8 @@
 public class Main {
-
+    public static void printSeason(int year) {
+        if (year <= 0 || year > 4000) {
+            System.out.println("Некорректное значение года");
+                return;}}
     public static void main (String[]args){
 
         int year = 2024;
